@@ -296,6 +296,4 @@ defaults:
       comments: true # true
       share: true
       related: true
-=======
-theme: jekyll-theme-cayman
->>>>>>> f03bb2eadbc797a9dc9f950f541a7b90f0159812
+      
