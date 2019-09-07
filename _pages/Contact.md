@@ -1,4 +1,5 @@
 ---
+title: "Contact"
 layout: page
 toc: false
 permalink: /contact/
