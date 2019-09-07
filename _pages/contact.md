@@ -156,6 +156,8 @@ textarea.input {
     box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
 }
 </style>
+
+<script>
 /*!
  * classie v1.0.1
  * class helper functions
@@ -263,7 +265,9 @@ function onInputBlur( ev ) {
       }
 }
 
-
+</script>
+</head>
+<body>
 <form class="form" id="contactform" action="//formspree.io/SarfarazAAbbasi+TheSarfarazGitHub@Gmail.Com.com" method="POST">
  <fieldset class="field">
  <input class="input" type="text" name="name" placeholder="Name" id="name" required>
@@ -282,7 +286,8 @@ function onInputBlur( ev ) {
  <fieldset class="field">
  <input class="button submit" type="submit" value="Send">
  </fieldset>
-</form>
 
+</form>
+</body>
 
 </html>
