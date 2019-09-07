@@ -291,7 +291,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+   _posts
   - scope:
       path: ""
       type: posts
@@ -306,7 +306,7 @@ defaults:
       toc: true
 
 defaults:
-  # _pages
+   _pages
   - scope:
       path: ""
       type: pages
