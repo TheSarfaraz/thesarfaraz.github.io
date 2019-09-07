@@ -1,11 +1,13 @@
 # main links
 main:
+     - title: "About"
+       url: /about/
+     - title: "Contact"
+       url: /contact/
 #  - title: "Quick-Start Guide"
 #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-   - title: "About"
-     url: https://TheSarfaraz.github.io/about/
-   - title: "Contact"
-    url: {sit.url}/contact
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
