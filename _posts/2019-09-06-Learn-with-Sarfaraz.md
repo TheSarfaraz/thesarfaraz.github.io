@@ -3,7 +3,7 @@
 ```python
 # This Python 3 environment comes with many helpful analytics libraries installed
 # It is defined by the kaggle/python docker image: https://github.com/kaggle/docker-python
-# For example, here's several helpful packages to load in 
+# For example, here's several helpful packages to load in
 
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
@@ -21,7 +21,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 
 # Learn With Other Kaggle Users
 ### Classify forest types based on information about the area
-![](https://storage.googleapis.com/kaggle-competitions/kaggle/15767/logos/header.png?t=2019-08-21-16-25-52)
+![full](https://storage.googleapis.com/kaggle-competitions/kaggle/15767/logos/header.png?t=2019-08-21-16-25-52)
 
 This is a beginner friendly Kaggle Competition so we will learn Machine Learning together in this competition using the Forestry Data Set
 
@@ -133,7 +133,7 @@ The soil types are:
 ## Data Analysis and Visualization
 Ok, so before diving into the modeling part we will do some Data Analysis and Data Visualization
 
-There is a great Notebook by [Fatih Bilgin](https://www.kaggle.com/fatihbilgin) : 
+There is a great Notebook by [Fatih Bilgin](https://www.kaggle.com/fatihbilgin) :
 https://www.kaggle.com/fatihbilgin/quick-visualization-and-eda-for-beginners which performs this well
 
 
@@ -252,7 +252,7 @@ trace2 = go.Box(
 )
 
 data = [trace1, trace2]
-layout = dict(autosize=False, width=700,height=500, title='Distance To Hydrology', paper_bgcolor='rgb(243, 243, 243)', 
+layout = dict(autosize=False, width=700,height=500, title='Distance To Hydrology', paper_bgcolor='rgb(243, 243, 243)',
               plot_bgcolor='rgb(243, 243, 243)', margin=dict(l=40,r=30,b=80,t=100,))
 fig = dict(data=data, layout=layout)
 iplot(fig)
@@ -272,7 +272,7 @@ trace2 = go.Box(
 )
 
 data = [trace1, trace2]
-layout = dict(autosize=False, width=700,height=500, title='Hillshade 3pm and Noon', paper_bgcolor='rgb(243, 243, 243)', 
+layout = dict(autosize=False, width=700,height=500, title='Hillshade 3pm and Noon', paper_bgcolor='rgb(243, 243, 243)',
               plot_bgcolor='rgb(243, 243, 243)', margin=dict(l=40,r=30,b=80,t=100,))
 fig = dict(data=data, layout=layout)
 iplot(fig)
@@ -325,7 +325,7 @@ I wonder how many (y) labels we have in each class. I'll take a look the last co
 
 
 ```python
-import plotly.express as px 
+import plotly.express as px
 
 cover_type = train["Cover_Type"].value_counts()
 df_cover_type = pd.DataFrame({'CoverType': cover_type.index, 'Total':cover_type.values})
@@ -372,7 +372,7 @@ report.to_file("report.html")
 report
 ```
 
-# Modeling 
+# Modeling
 
 Let's do it step by step first I'll slip the training data to make up a validation set and then try out different classification algorithms and then compare them
 
@@ -427,7 +427,7 @@ I know we can improve upon this but let's see how well we stand on Leaderboard f
 
 
 ```python
-# Predict the test data set 
+# Predict the test data set
 predictions_test = model.predict(test)
 ```
 
@@ -458,17 +458,17 @@ By using all default parameters our Validation Set accuracy is 0.76534
 
 def calc_tree_accuracy(max_leaf_nodes, train_X, val_X, train_y, val_y):
     model = DecisionTreeClassifier(max_leaf_nodes=max_leaf_nodes, random_state = 0)
-    
+
     model.fit(train_X, train_y)
     preds = model.predict(val_X)
     acc = accuracy_score(val_y, preds)
-    
+
     return(acc)
 ```
 
 
 ```python
-# Now let's fit our model with different max leaf nodes 
+# Now let's fit our model with different max leaf nodes
 accuracies = {}
 for max_leaf_nodes in range(5, 2000, 50) :
     my_acc = calc_tree_accuracy(max_leaf_nodes, train_X, val_X, train_y, val_y)
@@ -529,7 +529,7 @@ param_grid = {
 
 model_CV = GridSearchCV(estimator = model, param_grid = param_grid, cv = 5)
 
-# We do not need validation set that's why we will train it on full training set 
+# We do not need validation set that's why we will train it on full training set
 model_CV.fit(train, y)
 
 # Let's check the best parameters
@@ -549,7 +549,7 @@ predictions = model.predict(val_X)
 print("Best Parameters Random Forest Accuracy Is: ", accuracy_score(val_y, predictions))
 ```
 
-This is almost same or slightly lower than before... 
+This is almost same or slightly lower than before...
 Let's still check on test set
 
 
@@ -579,8 +579,8 @@ grid_params = {
         'colsample_bytree': [0.6, 0.8, 1.0],
         'max_depth': [3, 4, 5]
         }
-fit_params={"early_stopping_rounds":20, 
-            "eval_metric" : "merror", 
+fit_params={"early_stopping_rounds":20,
+            "eval_metric" : "merror",
             "eval_set" : [[val_X, val_y]]}
 
 model_CV = GridSearchCV(estimator = model, grid_params, fit_params = fit_params, verbose = 10)
