@@ -269,7 +269,7 @@ function onInputBlur( ev ) {
 </script>
 </head>
 <body>
-<form class="form" id="contactform" action="//formspree.io/SarfarazAAbbasi+TheSarfarazGitHub@Gmail.Com.com" method="POST">
+<form class="form" id="contactform" action="//formspree.io/SarfarazAAbbasi+TheSarfarazGitHub@Gmail.com" method="POST">
  <fieldset class="field">
  <input class="input" type="text" name="name" placeholder="Name" id="name" required>
  <label class="label" for="name"><span class="label-content">Your name</span></label>
@@ -289,6 +289,10 @@ function onInputBlur( ev ) {
  </fieldset>
 
 </form>
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdDknuPmNM1NNj2pY-IvTmw6WgciVc-H1YYWky_sDN7-9UGjQ/viewform?embedded=true" width="640" height="748" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 </body>
 
 </html>
