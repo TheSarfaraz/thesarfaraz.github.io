@@ -115,7 +115,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a Data Scientist."
   location         : "Karachi, Pakistan"
-  link             : "/"
+  home             : "/"
   email            :
   links:
     #- label: "Email"
@@ -311,6 +311,21 @@ defaults:
   - scope:
       path: ""
       type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true # true
+      share: true
+      related: true
+      classes: wide
+      toc: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
     values:
       layout: single
       author_profile: true
