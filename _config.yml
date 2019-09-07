@@ -303,3 +303,19 @@ defaults:
       share: true
       related: true
       classes: wide
+      toc: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true # true
+      share: true
+      related: true
+      classes: wide
+      toc: true
