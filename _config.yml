@@ -120,6 +120,9 @@ author:
     #- label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
+    - label: "Kaggle"
+      icon: "fab fa-fw fa-kaggle"
+      url: "https://Kaggle.com/TheSarfaraz"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://TheSarfaraz.GitHub.io"
@@ -139,6 +142,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Kaggle"
+      icon: "fab fa-fw fa-kaggle"
+      url: "https://Kaggle.com/TheSarfaraz"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/SarfarazAAbbasi"
@@ -296,4 +302,3 @@ defaults:
       comments: true # true
       share: true
       related: true
-      
