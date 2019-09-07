@@ -2,9 +2,8 @@
 title: "About"
 permalink: /about/
 header:
-  overlay_image: "/assets/images/data_science_shutterstock_shutterstock_Trueffelpix.jpg"
+  overlay_image: "/assets/images/Data-scientist_web-01-1024x228.png"
   overlay_filter: 0.5
-  
 toc: false
 comments: false
 ---
