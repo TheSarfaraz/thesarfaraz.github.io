@@ -1,6 +1,7 @@
 ---
 layout: page
 toc: false
+permalink: /contact/
 ---
 
 # Contact form

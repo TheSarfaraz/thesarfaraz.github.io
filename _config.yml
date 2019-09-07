@@ -167,6 +167,7 @@ footer:
 
 # Reading Files
 include:
+  - ["_pages"]
   - .htaccess
   - _pages
 exclude:
