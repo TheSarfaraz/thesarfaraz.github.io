@@ -10,7 +10,3 @@ related: false
 # Contact form
 
 Hello
-
-```Python
-print("Hello")
-```
