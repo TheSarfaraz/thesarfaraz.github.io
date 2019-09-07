@@ -167,7 +167,6 @@ footer:
 
 # Reading Files
 include:
-  - ["_pages"]
   - .htaccess
   - _pages
 exclude:
@@ -310,7 +309,7 @@ defaults:
   # _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
