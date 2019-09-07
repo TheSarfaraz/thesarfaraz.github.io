@@ -115,7 +115,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a Data Scientist."
   location         : "Karachi, Pakistan"
-  links            : "/"
+  link             : "/"
   email            :
   links:
     #- label: "Email"
