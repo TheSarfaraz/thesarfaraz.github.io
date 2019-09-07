@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/assets/images/data_science_shutterstock_shutterstock_Trueffelpix"
+  image: "/assets/images/data_science_shutterstock_shutterstock_Trueffelpix.jpg"
 toc: false
 ---
 

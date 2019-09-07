@@ -10,11 +10,11 @@ comments: false
 
 
 <html>
-/* ==========================================================================
+<!-- /* ==========================================================================
 #CONTACT PAGE
 ========================================================================== */
-/* an adaptation of http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/ */
-
+/* an adaptation of http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/ */ -->
+<style>
 #contactform, .form {
     margin-top: 2rem;
 }
@@ -155,7 +155,7 @@ textarea.input {
     -moz-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
     box-shadow: 0 5px 11px 0 rgba(0,0,0,0.23),0 4px 15px 0 rgba(0,0,0,0.20);
 }
-
+</style>
 /*!
  * classie v1.0.1
  * class helper functions
