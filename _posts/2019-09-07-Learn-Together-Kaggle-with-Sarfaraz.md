@@ -1373,7 +1373,7 @@ plt.show()
 ```
 
 
-![png](/_posts/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_15_0.png)
+![png](/assets/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_15_0.png)
 
 
 It seems the most important correlations are between "Horizontal Distance To Hydrology" and "Vertical Distance To Hydrology" with 70%; between "Aspect" and "Hillshade 3pm" with 60%; between "Hillshade Noon" and "Hillshade 3pm" with %60; between "Elevation" and "Horizontal Distance To Roadways" with %60. Let's see how they are looking.
@@ -1388,7 +1388,7 @@ plt.show()
 ```
 
 
-![png](/_posts/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_17_0.png)
+![png](/assets/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_17_0.png)
 
 
 
@@ -1401,7 +1401,7 @@ plt.show()
 ```
 
 
-![png](/_posts/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_18_0.png)
+![png](/assets/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_18_0.png)
 
 
 
@@ -1414,7 +1414,7 @@ plt.show()
 ```
 
 
-![png](/_posts/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_19_0.png)
+![png](/assets/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_19_0.png)
 
 
 There are obvious patterns if we ignore to outliers. And with this patterns, our model will learn.
@@ -1599,7 +1599,7 @@ plt.show()
 ```
 
 
-![png](/_posts/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_26_0.png)
+![png](/assets/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_26_0.png)
 
 
 Let's take a look our categorical categorical variables soil types and wilderness areas.
@@ -1623,7 +1623,7 @@ plt.title('Count of Soil Types With Value 1',color = 'darkred',fontsize=12)
 
 
 
-![png](/_posts/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_28_1.png)
+![png](/assets/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_28_1.png)
 
 
 Type 7, Type 8, Type 15 and Type 25 have either no or too few values. Must examine carefully before create a model.
@@ -1641,7 +1641,7 @@ plt.show()
 ```
 
 
-![png](/_posts/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_30_0.png)
+![png](/assets/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_30_0.png)
 
 
 I wonder how many (y) labels we have in each class. I'll take a look the last column (cover type) for this.
@@ -1735,7 +1735,7 @@ plt.show()
 ```
 
 
-![png](/_posts/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_34_0.png)
+![png](/assets/files/Learn-Together-with-Sarfaraz_files/Learn-Together-with-Sarfaraz_34_0.png)
 
 
 ### Pandas Profiling
