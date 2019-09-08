@@ -1373,7 +1373,7 @@ plt.show()
 ```
 
 
-![png]("/assets/images/Learn-Together-with-Sarfaraz/15_0.png")
+![png](/assets/images/Learn-Together-with-Sarfaraz/15_0.png)
 
 
 It seems the most important correlations are between "Horizontal Distance To Hydrology" and "Vertical Distance To Hydrology" with 70%; between "Aspect" and "Hillshade 3pm" with 60%; between "Hillshade Noon" and "Hillshade 3pm" with %60; between "Elevation" and "Horizontal Distance To Roadways" with %60. Let's see how they are looking.
@@ -1388,7 +1388,7 @@ plt.show()
 ```
 
 
-![png]("/assets/images/Learn-Together-with-Sarfaraz/17_0.png")
+![png](/assets/images/Learn-Together-with-Sarfaraz/17_0.png)
 
 
 
@@ -1414,7 +1414,7 @@ plt.show()
 ```
 
 
-![png]("/assets/images/Learn-Together-with-Sarfaraz/19_0.png")
+![png](/assets/images/Learn-Together-with-Sarfaraz/19_0.png)
 
 
 There are obvious patterns if we ignore to outliers. And with this patterns, our model will learn.
