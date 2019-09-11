@@ -1,13 +1,9 @@
 ---
 title: Learn Together Kaggle Competition with Sarfaraz
-excerpt: "In this competition you’ll predict what types of trees there are in an area based on various geographic features.
-
-The competition datasets comes from a study conducted in four wilderness areas within the beautiful Roosevelt National Forest of northern Colorado. These areas represent forests with very little human disturbances – the existing forest cover types there are more a result of ecological processes rather than forest management practices.
-
+excerpt: "In this competition we’ll predict what types of trees there are in an area based on various geographic features.
 The data is in raw form and contains categorical data such as wilderness areas and soil type."
 header:
   overlay_image: "https://storage.googleapis.com/kaggle-competitions/kaggle/15767/logos/header.png?t=2019-08-21-16-25-52"
-toc_sticky: true
 ---
 
 
