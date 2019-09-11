@@ -33,18 +33,18 @@
 
     <!-- Trying to add date -->
     {% if post.date %}
-      <p class="page__meta" style = "display: table; clear: both;"><i class="far fa-calendar-alt" aria-hidden="true"></i>
+      <p class="page__meta" style = "float: left;"><i class="far fa-calendar-alt" aria-hidden="true"></i>
           {{ site.data.ui-text[site.locale].date_label | default: "Updated: " }}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
       </p>
     {% elsif page.date %}
-      <p class="page__meta" style = "display: table; clear: both;"><i class="far fa-calendar-alt" aria-hidden="true"></i>
+      <p class="page__meta" style = "float: left;"><i class="far fa-calendar-alt" aria-hidden="true"></i>
           {{ site.data.ui-text[site.locale].date_label | default: "Updated: " }}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
       </p>
     {% endif %}
     <!-- End Date -->
 
     {% if post.read_time %}
-      <p class="page__meta" style = "float: left; padding-left: 50%;"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta" style = "float: right;"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
