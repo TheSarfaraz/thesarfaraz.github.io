@@ -6,7 +6,7 @@ header:
   overlay_image: "https://storage.googleapis.com/kaggle-competitions/kaggle/15767/logos/header.png?t=2019-08-21-16-25-52"
   toc: true
   toc_sticky: true
-classes: wide
+
 ---
 
 
