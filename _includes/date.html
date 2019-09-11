@@ -1,7 +1,0 @@
-{% if post.date %}
-  (% assign date = post.date %)
-  {{ post.date | date: "%B %d, %Y" }}
-{% elsif page.date %}
-  {% assign date = page.date %}
-  {{ page.date | date: "%B %d, %Y" }}
-{% endif %}
