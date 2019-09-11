@@ -12,7 +12,7 @@ toc_sticky: true
 
 
 # Learn With Other Kaggle Users
-### Classify forest types based on information about the area
+## Classify forest types based on information about the area
 ![](https://storage.googleapis.com/kaggle-competitions/kaggle/15767/logos/header.png?t=2019-08-21-16-25-52)
 
 This is a beginner friendly Kaggle Competition so we will learn Machine Learning together in this competition using the Forestry Data Set
