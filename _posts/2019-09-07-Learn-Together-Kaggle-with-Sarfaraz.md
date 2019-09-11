@@ -1752,7 +1752,7 @@ report.to_file("report.html")
 report
 ```
 
-# Modeling
+## Modeling
 
 Let's do it step by step first I'll slip the training data to make up a validation set and then try out different classification algorithms and then compare them
 
