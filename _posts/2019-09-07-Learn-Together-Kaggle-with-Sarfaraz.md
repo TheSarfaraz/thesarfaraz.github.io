@@ -4,6 +4,8 @@ excerpt: "In this competition we’ll predict what types of trees there are in a
 The data is in raw form and contains categorical data such as wilderness areas and soil type."
 header:
   overlay_image: "https://storage.googleapis.com/kaggle-competitions/kaggle/15767/logos/header.png?t=2019-08-21-16-25-52"
+  toc: true
+  toc_sticky: true
 classes: wide
 ---
 
