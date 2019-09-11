@@ -30,6 +30,15 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+
+    <!-- Trying to add date -->
+    {% if post.date %}
+      <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
+          {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      </p>
+    {% endif %}
+    <!-- End Date -->
+
     {% if post.read_time %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
