@@ -5,7 +5,7 @@ The data is in raw form and contains categorical data such as wilderness areas a
 header:
   overlay_image: "https://storage.googleapis.com/kaggle-competitions/kaggle/15767/logos/header.png?t=2019-08-21-16-25-52"
   caption: "Credit: Kaggle.com"
-toc_label: {title}
+toc_label: {post.title}
 ---
 
 
