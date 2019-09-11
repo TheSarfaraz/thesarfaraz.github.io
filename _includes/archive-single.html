@@ -44,7 +44,7 @@
     <!-- End Date -->
 
     {% if post.read_time %}
-      <p class="page__meta" style = "float: center;"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta" style = "float: left; padding-left: 30%;"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.excerpt %}<p style = "clear: both;" class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
