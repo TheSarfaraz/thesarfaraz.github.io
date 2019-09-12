@@ -1,3 +1,7 @@
+---
+title: Introduction To Python - The Basics
+excerpt: An introduction to the basic concepts of Python. Create your first variables and acquaint yourself with Python's basic data types.
+---
 
 # Python Basics
 
