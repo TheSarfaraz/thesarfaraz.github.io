@@ -10,7 +10,7 @@ excerpt: An introduction to the basic concepts of Python. Create your first vari
 Addition
 
 
-```
+```python
 5 + 5
 ```
 
@@ -24,7 +24,7 @@ Addition
 Substraction
 
 
-```
+```python
 5 - 5
 ```
 
@@ -38,7 +38,7 @@ Substraction
 Multiplication
 
 
-```
+```python
 5 * 5
 ```
 
@@ -52,7 +52,7 @@ Multiplication
 Division
 
 
-```
+```python
 25 / 5
 ```
 
@@ -66,7 +66,7 @@ Division
 Integer Division
 
 
-```
+```python
 25 // 5
 ```
 
@@ -78,7 +78,7 @@ Integer Division
 
 
 
-```
+```python
 26 / 3
 ```
 
@@ -90,7 +90,7 @@ Integer Division
 
 
 
-```
+```python
 26 // 3
 ```
 
@@ -104,7 +104,7 @@ Integer Division
 Modulo
 
 
-```
+```python
 26 % 3
 ```
 
@@ -116,7 +116,7 @@ Modulo
 
 
 
-```
+```python
 20 % 2
 ```
 
@@ -128,7 +128,7 @@ Modulo
 
 
 
-```
+```python
 21 % 2
 ```
 
@@ -142,7 +142,7 @@ Modulo
 Exponentiation
 
 
-```
+```python
 4 ** 2
 ```
 
@@ -154,7 +154,7 @@ Exponentiation
 
 
 
-```
+```python
 3 ** 3
 ```
 
@@ -168,7 +168,7 @@ Exponentiation
 How much is your $100 worth after 7 years?
 
 
-```
+```python
 100 * 1.1 ** 7
 ```
 
@@ -199,7 +199,7 @@ Every time you type the variable's name, you're asking Python to reference the a
 * Boolean
 
 
-```
+```python
 # These are comments which start with #,
 # comments are ignored by Python interpreter and are for humans
 
@@ -208,7 +208,7 @@ savings = 100
 ```
 
 
-```
+```python
 print(savings)
 ```
 
@@ -216,7 +216,7 @@ print(savings)
 
 
 
-```
+```python
 # Create a variable growth_multiplier
 
 growth_multiplier = 1.1
@@ -245,7 +245,7 @@ Create a new string, `desc`, with the value `"compound interest"`. \
 Create a new boolean, `profitable`, with the value `True`.
 
 
-```
+```python
 # Create a variable desc
 desc = "compound interest"
 
@@ -254,7 +254,7 @@ profitable = True
 ```
 
 ### Guess the type
-To find out the type of a value or a variable that refers to that value, you can use the `type()`` function. Suppose you've defined a variable `a`, but you forgot the type of this variable. To determine the type of a, simply execute:
+To find out the type of a value or a variable that refers to that value, you can use the `type()` function. Suppose you've defined a variable `a`, but you forgot the type of this variable. To determine the type of a, simply execute:
 
 ```python
 type(a)
@@ -274,7 +274,7 @@ When you sum two strings, for example, you'll get different behavior than when y
 * Print out `doubledesc`
 
 
-```
+```python
 savings = 100
 growth_multiplier = 1.1
 desc = "compound interest"
@@ -305,17 +305,17 @@ print(doubledesc)
 Using the `+` operator to paste together two strings can be very useful in building custom messages.
 
 Suppose, for example, that you've calculated the return of your investment and want to summarize the results in a string. Assuming the floats `savings` and `result` are defined, you can try something like this:
-```
+```python
 print("I started with $" + savings + " and now have $" + result + ". Awesome!")
 ```
 This will not work, though, as you cannot simply sum strings and floats.
 
-To fix the error, you'll need to explicitly convert the types of your variables. More specifically, you'll need `str()`, to convert a value into a string. `str(savings)``, for example, will convert the float `savings` to a string.
+To fix the error, you'll need to explicitly convert the types of your variables. More specifically, you'll need `str()`, to convert a value into a string. `str(savings)`, for example, will convert the float `savings` to a string.
 
 Similar functions such as `int()`, `float()` and `bool()` will help you convert Python values into any type.
 
 
-```
+```python
 # Definition of savings and result
 savings = 100
 result = 100 * 1.10 ** 7
