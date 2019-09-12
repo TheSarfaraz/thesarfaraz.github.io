@@ -7,13 +7,13 @@ Addition
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 5 + 5
 ```
 
   </div>
-  
+
 
 
 
@@ -21,20 +21,20 @@ Addition
   ```
   10
   ```
-  
+
 
 
 Substraction
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 5 - 5
 ```
 
   </div>
-  
+
 
 
 
@@ -42,20 +42,20 @@ Substraction
   ```
   0
   ```
-  
+
 
 
 Multiplication
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 5 * 5
 ```
 
   </div>
-  
+
 
 
 
@@ -63,20 +63,20 @@ Multiplication
   ```
   25
   ```
-  
+
 
 
 Division
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 25 / 5
 ```
 
   </div>
-  
+
 
 
 
@@ -84,20 +84,20 @@ Division
   ```
   5.0
   ```
-  
+
 
 
 Integer Division
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 25 // 5
 ```
 
   </div>
-  
+
 
 
 
@@ -105,18 +105,18 @@ Integer Division
   ```
   5
   ```
-  
+
 
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 26 / 3
 ```
 
   </div>
-  
+
 
 
 
@@ -124,18 +124,18 @@ Integer Division
   ```
   8.666666666666666
   ```
-  
+
 
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 26 // 3
 ```
 
   </div>
-  
+
 
 
 
@@ -143,20 +143,20 @@ Integer Division
   ```
   8
   ```
-  
+
 
 
 Modulo
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 26 % 3
 ```
 
   </div>
-  
+
 
 
 
@@ -164,18 +164,18 @@ Modulo
   ```
   2
   ```
-  
+
 
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 20 % 2
 ```
 
   </div>
-  
+
 
 
 
@@ -183,18 +183,18 @@ Modulo
   ```
   0
   ```
-  
+
 
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 21 % 2
 ```
 
   </div>
-  
+
 
 
 
@@ -202,20 +202,20 @@ Modulo
   ```
   1
   ```
-  
+
 
 
 Exponentiation
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 4 ** 2
 ```
 
   </div>
-  
+
 
 
 
@@ -223,18 +223,18 @@ Exponentiation
   ```
   16
   ```
-  
+
 
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 3 ** 3
 ```
 
   </div>
-  
+
 
 
 
@@ -242,20 +242,20 @@ Exponentiation
   ```
   27
   ```
-  
+
 
 
 How much is your $100 worth after 7 years?
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 100 * 1.1 ** 7
 ```
 
   </div>
-  
+
 
 
 
@@ -263,7 +263,7 @@ How much is your $100 worth after 7 years?
   ```
   194.87171000000012
   ```
-  
+
 
 
 ## Variables & Types
@@ -271,7 +271,7 @@ How much is your $100 worth after 7 years?
 ### Variable
 * Specific, case-sensitive name
 * Call up value through variable name
-* Suppose you want to save your height and weight, you're 1.79m tall and weigh 68.7 kg you can assign these two values to variables with an equal sign. 
+* Suppose you want to save your height and weight, you're 1.79m tall and weigh 68.7 kg you can assign these two values to variables with an equal sign.
 ```python
 height = 1.79
 weight = 68.7
@@ -287,35 +287,35 @@ Every time you type the variable's name, you're asking Python to reference the a
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
-# These are comments which start with #, 
+# These are comments which start with #,
 # comments are ignored by Python interpreter and are for humans
 
-# Create a variable savings 
+# Create a variable savings
 savings = 100
 ```
 
   </div>
-  
+
 
   <div class="input_area" markdown="1">
-  
+
 ```
 print(savings)
 ```
 
   </div>
-  
+
   {:.output_stream}
   ```
   100
 
   ```
-  
+
 
   <div class="input_area" markdown="1">
-  
+
 ```
 # Create a variable growth_multiplier
 
@@ -329,15 +329,15 @@ print(result)
 ```
 
   </div>
-  
+
   {:.output_stream}
   ```
   194.87171000000012
 
   ```
-  
+
 ### Other variable types
-In the previous exercise, you worked with two Python data types: 
+In the previous exercise, you worked with two Python data types:
 
 `int`, or integer: a number without a fractional part. `savings`, with the value `100`, is an example of an integer.
 `float`, or floating point: a number that has both an integer and fractional part, separated by a point. `growth_multiplier`, with the value `1.1`, is an example of a float.
@@ -351,7 +351,7 @@ Create a new boolean, `profitable`, with the value `True`.
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 # Create a variable desc
 desc = "compound interest"
@@ -361,7 +361,7 @@ profitable = True
 ```
 
   </div>
-  
+
 ### Guess the type
 To find out the type of a value or a variable that refers to that value, you can use the `type()`` function. Suppose you've defined a variable `a`, but you forgot the type of this variable. To determine the type of a, simply execute:
 
@@ -370,7 +370,7 @@ type(a)
 ```
 
 ### Operations with other types
-In Python, different functions behave differently on different data types. 
+In Python, different functions behave differently on different data types.
 
 
 When you sum two strings, for example, you'll get different behavior than when you sum two integers or two booleans.
@@ -384,7 +384,7 @@ When you sum two strings, for example, you'll get different behavior than when y
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 savings = 100
 growth_multiplier = 1.1
@@ -406,7 +406,7 @@ print(doubledesc)
 ```
 
   </div>
-  
+
   {:.output_stream}
   ```
   <class 'float'>
@@ -415,7 +415,7 @@ print(doubledesc)
 compound interestcompound interest
 
   ```
-  
+
 ### Type conversion
 
 Using the `+` operator to paste together two strings can be very useful in building custom messages.
@@ -432,7 +432,7 @@ Similar functions such as `int()`, `float()` and `bool()` will help you convert 
 
 
   <div class="input_area" markdown="1">
-  
+
 ```
 # Definition of savings and result
 savings = 100
@@ -450,10 +450,9 @@ pi_float = float(pi_string)
 ```
 
   </div>
-  
+
   {:.output_stream}
   ```
   I started with $100 and now have $194.87171000000012. Awesome!
 
   ```
-  
