@@ -2,20 +2,20 @@
 title: "Scraping Dubai Chamber of Commerce Directory"
 excerpt: "Scraped the entire Directory of Dubai Chamber of Commerce to extract Company Names, Numbers, Websites."
 header:
-  image: /assets/images/scraping/dcciinfo.ae/png
-  teaser: /assets/images/scraping/dcciinfo_th.png
+  image: /assets/images/scraping/dcciinfo.ae.png
+  teaser: /assets/images/scraping/dcciinfo_th-min.png
 gallery:
   - url: /assets/images/scraping/dcciinfo.ae.png
-    image_path: assets/images/scraping/dcciinfo.ae.png
+    image_path: assets/images/scraping/dcciinfo.ae-min.png
     alt: "Dubai Chambers Website Screenshot"
   - url: /assets/images/scraping/PyCharm1.png
-    image_path: assets/images/scraping/PyCharm1.png
+    image_path: assets/images/scraping/PyCharm1-min.png
     alt: "Scraping in PyCharm"
   - url: /assets/images/scraping/PyCharm2.png
-    image_path: assets/images/scraping/PyCharm2.png
+    image_path: assets/images/scraping/PyCharm2-min.png
     alt: "Scraping in PyCharm"
   - url: /assets/images/scraping/csv.png
-    image_path: assets/images/scraping/csv.png
+    image_path: assets/images/scraping/csv-min.png
     alt: "Result In Google Sheets"
 ---
 
