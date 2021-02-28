@@ -1,6 +1,7 @@
 ---
 title: "Scraping Dubai Chamber of Commerce Directory"
 excerpt: "Scraped the entire Directory of Dubai Chamber of Commerce to extract Company Names, Numbers, Websites."
+author_profile: true
 header:
   image: /assets/images/scraping/dcciinfo_th.png
   teaser: /assets/images/scraping/dcciinfo_th-min.png
