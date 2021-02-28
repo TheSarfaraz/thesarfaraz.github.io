@@ -319,3 +319,18 @@ defaults:
       related: true
       classes: wide
       toc: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: webscraping
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      classes: wide
+
+
+collections:
+  webscraping:
+    output: true
+    permalink: /:collection/:path/
