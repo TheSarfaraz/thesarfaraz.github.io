@@ -12,4 +12,4 @@ This time I'll learn from DataCamp . And I'm committing to study DataCamp at lea
 
 If you have similar goals as mine, you're welcome to join. I Challenge you to #100DaysOfDataCamp!
 
-Hoping to having a good journey. Feel free to explore and comment.
+Hoping to having a good journey. Feel free to follow the courses with me and comment.
